@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html lang="en-US">
+    <style>
+        div {
+        background-color: #FFF4A3;
+        width: 300px;
+        margin: auto;
+        }
+        div.mycontainer {
+        width:100%;
+        overflow:auto;
+        }
+        div.mycontainer div {
+        width:33%;  
+        float:left;
+        }
+    </style>
     <head>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
         <title>
             Alejandro Jimenez Zabala
         </title>
@@ -9,11 +25,17 @@
         <h1>
             Alejandro Jimenez Zabala
         </h1>
-        <h2>
-            Resume
-        </h2>
-        <h2>
-            Portfolio
-        </h2>
+        <div class="mycontainer">
+            <div>
+                <h2>
+                    Resume
+                </h2>
+            </div>
+            <div>
+                <h2>
+                    Portfolio
+                </h2>
+            </div>
+        </div>
     </body>
 </html>

@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+div {
+    background-color: #7dbef3;
+    width: 300px;
+    margin: auto;
+}
+div.mycontainer {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+div.mycontainer div {
+    padding-top: 70px;
+    width: 50%;
+    float: left;
+    color: snow;
+    text-align: center;
+}
+footer {
+    text-align: center;
+}

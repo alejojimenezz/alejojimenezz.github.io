@@ -10,8 +10,8 @@ Portfolio and Resume web-page
 - [X] Begin Resume file
 - [X] Link Resume file to index
 - [ ] Add spanish/english option to resume
-- [ ] Begin Portfolio file
-- [ ] Link Portfolio page to index
+- [X] Begin Portfolio file
+- [ ] Link Portfolio page to index with back button
 - [ ] Add hover interactions to home page
 - [ ] Add to portfolio: Dollar exchange rate
 - [ ] Add to portfolio: Microcontrollers

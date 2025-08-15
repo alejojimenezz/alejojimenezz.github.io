@@ -2,16 +2,19 @@
 
 ## [alejojimenezz.github.io](alejojimenezz.github.io)
 
-Portfolio and resume web page
+Portfolio and Resume web-page
 
 ## TO-DO list
 
 - [X] Create separate file for style
-- [ ] Begin Resume file
+- [X] Begin Resume file
+- [X] Link Resume file to index
+- [ ] Add spanish/english option to resume
 - [ ] Begin Portfolio file
-- [ ] Link Resume and Portfolio pages to index
+- [ ] Link Portfolio page to index
 - [ ] Add hover interactions to home page
 - [ ] Add to portfolio: Dollar exchange rate
 - [ ] Add to portfolio: Microcontrollers
 - [ ] Add to portfolio: Sign language recognition
 - [ ] Add to portfolio: Quanticon Valley
+- [ ] Fix index images to scale with window

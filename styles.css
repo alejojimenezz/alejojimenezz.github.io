@@ -10,6 +10,13 @@ body {
 h1 {
     text-align: center;
 }
+button.back-button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size:medium;
+    background-color: white;
+}
 div {
     background-color: #7dbef3;
     width: 300px;

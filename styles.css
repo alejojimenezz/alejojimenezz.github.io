@@ -17,8 +17,8 @@ button.back-button {
     font-size:medium;
     background-color: white;
 }
-div {
-    background-color: #7dbef3;
+div.base {
+    background: linear-gradient(white, #3e2e99);
     width: 300px;
     margin: auto;
 }
@@ -40,6 +40,16 @@ img {
     display: block;
     margin: 0 auto;
 }
+a.icons-link:link {
+    color: white;
+}
+a.icons-link:hover {
+    color: orange;
+}
+a.icons-link:visited {
+    color: yellow;
+}
 footer {
     text-align: center;
+    background-color: #3e2e99;
 }

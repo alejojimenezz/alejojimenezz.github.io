@@ -27,6 +27,12 @@ div.mycontainer div {
     color: snow;
     text-align: center;
 }
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 footer {
     text-align: center;
 }

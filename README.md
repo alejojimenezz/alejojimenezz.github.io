@@ -17,4 +17,4 @@ Portfolio and Resume web-page
 - [ ] Add to portfolio: Microcontrollers
 - [ ] Add to portfolio: Sign language recognition
 - [ ] Add to portfolio: Quanticon Valley
-- [ ] Fix index images to scale with window
+- [X] Fix index images to scale with window

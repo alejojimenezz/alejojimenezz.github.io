@@ -13,7 +13,7 @@ Portfolio and Resume web-page
 - [X] Begin Portfolio file
 - [X] Link Portfolio page to index with back button
 - [ ] Add hover interactions to home page
-- [ ] Organize portfolio elements in grid
+- [X] Organize portfolio elements in grid
 - [ ] Style portfolio elements
 - [ ] Add to portfolio: Dollar exchange rate
 - [ ] Add to portfolio: Microcontrollers

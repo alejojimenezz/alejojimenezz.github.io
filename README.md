@@ -11,8 +11,10 @@ Portfolio and Resume web-page
 - [X] Link Resume file to index
 - [ ] Add spanish/english option to resume
 - [X] Begin Portfolio file
-- [ ] Link Portfolio page to index with back button
+- [X] Link Portfolio page to index with back button
 - [ ] Add hover interactions to home page
+- [ ] Organize portfolio elements in grid
+- [ ] Style portfolio elements
 - [ ] Add to portfolio: Dollar exchange rate
 - [ ] Add to portfolio: Microcontrollers
 - [ ] Add to portfolio: Sign language recognition

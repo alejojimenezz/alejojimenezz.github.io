@@ -27,6 +27,10 @@ div.mycontainer div {
     color: snow;
     text-align: center;
 }
+section {
+    min-height: 100vh;
+    border: 15px solid black;
+}
 footer {
     text-align: center;
 }

@@ -10,8 +10,24 @@ body {
 h1 {
     text-align: center;
 }
-div {
-    background-color: #7dbef3;
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+a.icons-link:link {
+    color: snow;
+}
+a.icons-link:hover {
+    color: orange;
+}
+a.icons-link:visited {
+    color: yellow;
+}
+
+div.base {
+    background: linear-gradient(snow, #3e2e99);
     width: 300px;
     margin: auto;
 }
@@ -33,4 +49,33 @@ section {
 }
 footer {
     text-align: center;
+    background-color: #3e2e99;
+}
+
+button.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size:medium;
+    background-color: snow;
+}
+button.back-button:hover {
+    background-color: lightgray;
+}
+div.portfolio-elements {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+div.portfolio-elements h2 {
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 2;
+}
+div.portfolio-elements h2 p {
+    font-size: small;
+    font-style: italic;
 }

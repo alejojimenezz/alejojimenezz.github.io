@@ -11,10 +11,13 @@ Portfolio and Resume web-page
 - [X] Link Resume file to index
 - [ ] Add spanish/english option to resume
 - [X] Begin Portfolio file
-- [ ] Link Portfolio page to index with back button
+- [X] Link Portfolio page to index with back button
+- [ ] Set sections to jump to in single page html
 - [ ] Add hover interactions to home page
+- [X] Organize portfolio elements in grid
+- [ ] Style portfolio elements
 - [ ] Add to portfolio: Dollar exchange rate
 - [ ] Add to portfolio: Microcontrollers
 - [ ] Add to portfolio: Sign language recognition
 - [ ] Add to portfolio: Quanticon Valley
-- [ ] Fix index images to scale with window
+- [X] Fix index images to scale with window

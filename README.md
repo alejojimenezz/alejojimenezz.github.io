@@ -9,6 +9,7 @@ Portfolio and Resume web-page
 - [X] Create separate file for style
 - [X] Begin Resume file
 - [X] Link Resume file to index
+- [ ] Add "Portfolio under construction" Alert
 - [ ] Add spanish/english option to resume
 - [X] Begin Portfolio file
 - [X] Link Portfolio page to index with back button

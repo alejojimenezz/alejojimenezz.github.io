@@ -4,6 +4,18 @@ html, body {
     height: 100%;
     width: 100%;
 }
+.top-left-button {
+    top: 0;
+    left: 0;
+    padding: 10px 20px;
+    background-color: #3e2e99;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.top-left-button:hover{
+    color: orange;
+}
 body {
     font-family: 'Open Sans', sans-serif;
 }

@@ -9,11 +9,11 @@ Portfolio and Resume web-page
 - [X] Create separate file for style
 - [X] Begin Resume file
 - [X] Link Resume file to index
-- [ ] Add "Portfolio under construction" Alert
+- [X] Add "Portfolio under construction" Alert
 - [ ] Add spanish/english option to resume
 - [X] Begin Portfolio file
 - [X] Link Portfolio page to index with back button
-- [ ] Set sections to jump to in single page html
+- [X] Set sections to jump to in single page html
 - [ ] Add hover interactions to home page
 - [X] Organize portfolio elements in grid
 - [ ] Style portfolio elements

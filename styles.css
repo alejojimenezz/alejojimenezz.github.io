@@ -9,6 +9,11 @@ body {
 }
 h1 {
     text-align: center;
+    color: white;
+}
+h1.cover{
+    padding-top: 15rem;
+    padding-bottom: 15rem;
 }
 img {
     max-width: 100%;
@@ -45,7 +50,8 @@ div.mycontainer div {
 }
 section {
     min-height: 100vh;
-    border: 15px solid black;
+    border: 5px solid black;
+    background-color: #3e2e99;
 }
 footer {
     text-align: center;

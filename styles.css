@@ -4,11 +4,28 @@ html, body {
     height: 100%;
     width: 100%;
 }
+.top-left-button {
+    top: 0;
+    left: 0;
+    padding: 10px 20px;
+    background-color: #3e2e99;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.top-left-button:hover{
+    color: orange;
+}
 body {
     font-family: 'Open Sans', sans-serif;
 }
 h1 {
     text-align: center;
+    color: white;
+}
+h1.cover{
+    padding-top: 15rem;
+    padding-bottom: 15rem;
 }
 img {
     max-width: 100%;
@@ -45,7 +62,8 @@ div.mycontainer div {
 }
 section {
     min-height: 100vh;
-    border: 15px solid black;
+    border: 5px solid black;
+    background-color: #3e2e99;
 }
 footer {
     text-align: center;

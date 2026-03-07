@@ -14,7 +14,7 @@ Portfolio and Resume web-page
   - [ ] Enable language options on hover
 - [X] Begin Portfolio file
 - [X] Link Portfolio page to index with back button
-- [ ] Set sections to jump to in single page html
+- [X] Set sections to jump to in single page html
 - [ ] Add hover interactions to home page
 - [X] Organize portfolio elements in grid
 - [ ] Style portfolio elements

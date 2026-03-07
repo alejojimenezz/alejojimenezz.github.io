@@ -8,8 +8,19 @@
         <title>Alejandro Jimenez Zabala</title>
     </head>
     <body>
+        <script src="index.js"></script>
+        <section id="cover">
+            <a href="#main">
+                <h1 class="cover">Alejandro Jimenez Zabala</h1>
+            </a>
+        </section>
         <section id="main">
-            <h1>Alejandro Jimenez Zabala</h1>
+            <button
+                class="top-left-button"
+                onclick="document.getElementById('cover').scrollIntoView();"
+            >
+                Go Back
+            </button>
             <div class="mycontainer">
                 <a href="assets/Alejandro_Jimenez.pdf" target="_blank">
                     <div class="base">
@@ -40,6 +51,12 @@
             </footer>
         </section>
         <section id="portfolio">
+            <button
+                class="top-left-button"
+                onclick="document.getElementById('main').scrollIntoView();"
+            >
+                Go Back
+            </button>
             <h1>Portfolio</h1>
             <div class="portfolio-elements">
                 <h2 style="background-color: lightgreen">

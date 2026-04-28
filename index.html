@@ -1,81 +1,20 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <link rel="stylesheet" href="styles.css" />
-        <title>Alejandro Jimenez Zabala</title>
-    </head>
-    <body>
-        <script src="index.js"></script>
-        <section id="cover">
-            <a href="#main">
-                <h1 class="cover">Alejandro Jimenez Zabala</h1>
-            </a>
-        </section>
-        <section id="main">
-            <button
-                class="top-left-button"
-                onclick="document.getElementById('cover').scrollIntoView();"
-            >
-                Go Back
-            </button>
-            <div class="mycontainer">
-                <a href="assets/Alejandro_Jimenez.pdf" target="_blank">
-                    <div class="base">
-                        <img src="images/resumeIcon.png" alt="Resume icon" />
-                        <h2>Resume</h2>
-                    </div>
-                </a>
-                <a href="#portfolio">
-                    <div class="base">
-                        <img
-                            src="images/portfolioIcon.png"
-                            alt="Portfolio icon"
-                        />
-                        <h2>Portfolio</h2>
-                    </div>
-                </a>
-            </div>
-            <footer>
-                <p>
-                    <a
-                        class="icons-link"
-                        href="https://www.flaticon.es/iconos-gratis/solicitud"
-                        title="solicitud iconos"
-                    >
-                        Solicitud iconos creados por Freepik - Flaticon
-                    </a>
-                </p>
-            </footer>
-        </section>
-        <section id="portfolio">
-            <button
-                class="top-left-button"
-                onclick="document.getElementById('main').scrollIntoView();"
-            >
-                Go Back
-            </button>
-            <h1>Portfolio</h1>
-            <div class="portfolio-elements">
-                <h2 style="background-color: lightgreen">
-                    Dollar Exchange app
-                    <p>Python</p>
-                </h2>
-                <h2 style="background-color: lightblue">
-                    Microcontrollers
-                    <p>C</p>
-                </h2>
-                <h2 style="background-color: lightgoldenrodyellow">
-                    Quanticon Valley web-page
-                    <p>NodeJS and React</p>
-                </h2>
-                <h2 style="background-color: lightgreen">
-                    Academic projects
-                    <p>Python / C++</p>
-                </h2>
-            </div>
-        </section>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alejandro Jimenez Zabala</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-inner">
+            <a class="navbar-brand" href="#home">AJZ</a>
+            <ul class="navbar-links">
+                <li><a href="#portfolio">My work</a></li>
+                <li><a href="#contact-me">Contact me</a></li>
+            </ul>
+        </div>
+    </nav>
+</body>
 </html>

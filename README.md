@@ -4,22 +4,38 @@
 
 Portfolio and Resume web-page
 
+## New colors
+
+- Royal green: #00573F
+  - #130057
+  - #570018
+  - #445700
+
 ## TO-DO list
 
-- [X] Create separate file for style
-- [X] Begin Resume file
-- [X] Link Resume file to index
-- [X] Add "Portfolio under construction" Alert
-- [ ] Add spanish/english option to resume
-  - [ ] Enable language options on hover
-- [X] Begin Portfolio file
-- [X] Link Portfolio page to index with back button
-- [X] Set sections to jump to in single page html
-- [ ] Add hover interactions to home page
-- [X] Organize portfolio elements in grid
-- [ ] Style portfolio elements
-- [ ] Add to portfolio: Dollar exchange rate
-- [ ] Add to portfolio: Microcontrollers
-- [ ] Add to portfolio: Academic projects
-- [ ] Add to portfolio: Quanticon Valley
-- [X] Fix index images to scale with window
+- [ ] Reestructure portfolio
+- [ ] Responsive layout
+- [ ] Top bar - Naviation bar
+- [ ] Hero
+  - [ ] Name
+  - [ ] Call to action
+  - [ ] My work (Briefcase codes: &#128188; &#x1F4BC;)
+  - [ ] Contact me (Phone: &#x1F4F1; &#x1F4F2;)
+- [ ] My work / Portfolio
+  - [ ] Personal projects
+    - [ ] QRioso
+    - [ ] NFC reader/writer
+    - [ ] VSC extension - RPU
+    - [ ] Dollar exchange rate analysis
+  - [ ] Other work
+    - [ ] Quanticon valley
+    - [ ] Academic projects
+      - [ ] Conveyor belt
+      - [ ] PID controllers
+    - [ ] ENIQ sessions
+      - [ ] Python
+      - [ ] GIT
+  - [ ] Currently working on...
+    - [ ] CompuLearning
+    - [ ] QRioso
+    - [ ] NFC reader/writer

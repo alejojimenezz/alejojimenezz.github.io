@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alejandro Jimenez Zabala</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -14,7 +17,18 @@
                 <li><a href="#portfolio">My work</a></li>
                 <li><a href="#contact-me">Contact me</a></li>
             </ul>
+            <button class="navbar-toggle" onclick="toggleMenu()">&#9776;</button>
         </div>
+        <ul class="navbar-mobile" id="mobileMenu">
+            <li><a href="#portfolio" onclick="toggleMenu()">My work</a></li>
+            <li><a href="#contact-me" onclick="toggleMenu()">Contact me</a></li>
+        </ul>
     </nav>
+
+    <!-- HERO -->
+    <!-- <section class="page page--hero" id="home">
+        <div class="hero-content"></div>
+    </section> -->
+
 </body>
 </html>

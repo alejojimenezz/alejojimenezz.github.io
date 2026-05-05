@@ -38,10 +38,20 @@
         </div>
     </section>
 
+    <!-- MY WORK -->
     <section class="page" id="portfolio">
-        Portfolio
+        <div class="tab">
+            <button class="tablinks" onmouseover="openWork(event, 'personalProjects')">Personal projects</button>
+            <button class="tablinks" onmouseover="openWork(event, 'academicProjects')">Academic projects</button>
+            <button class="tablinks" onmouseover="openWork(event, 'other')">Other</button>
+        </div>
+
+        <div id="personalProjects" class="tabcontent"></div>
+        <div id="academicProjects" class="tabcontent"></div>
+        <div id="other" class="tabcontent"></div>
     </section>
 
+    <!-- CONTACT -->
     <section class="page" id="contact-me">
         Contact me
     </section>

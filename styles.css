@@ -160,12 +160,20 @@ html, body {
 
 /* MY WORK */
 
+.page--portfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 0 auto;
+}
+
 .tab {
-    float: left;
+    display: flex;
+    flex-direction: column;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
     width: 30%;
-    height: 300px;
 }
 
 .tab button {
@@ -180,20 +188,18 @@ html, body {
     cursor: pointer;
 }
 
+.tabcontent {
+    width: 70%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-left: none;
+    display: none;
+}
+
 .tab button:hover {
     background-color: #ddd;
 }
 
 .tab button.active {
     background-color: #ccc;
-}
-
-.tabcontent {
-    float: left;
-    padding: 0px 12px;
-    border: 1px solid #ccc;
-    width: 70%;
-    border-left: none;
-    height: 300px;
-    display: none;
 }

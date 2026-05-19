@@ -1,4 +1,4 @@
-alert("Portfolio under construction.");
+//alert("Portfolio under construction.");
 
 function toggleMenu() {
     const item = document.getElementById('mobileMenu');
@@ -32,4 +32,15 @@ function openWork(evt, category) {
 
     document.getElementById(category).style.display = "block";
     evt.currentTarget.className += " active";
+}
+
+function openQRioso() {
+    const element = document.getElementById("QRiosoDialog");
+    const elementText = document.getElementById("QRiosoButton")
+    elementText.classList.toggle("bold-text");
+    if (element.open == true) {
+        element.open = false;
+    } else {
+        element.open = true;
+    }
 }

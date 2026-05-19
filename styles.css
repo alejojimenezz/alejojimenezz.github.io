@@ -140,7 +140,7 @@ html, body {
 /* BADGES */
 
 .badge {
-    display: inline-block;
+    display: block;
     margin-top: 2rem;
     background: #00352f;
     color: #b8d0c9;
@@ -152,6 +152,7 @@ html, body {
 }
 
 .badge:hover {
+    background: #00573F;
     color: #f4f8f6;
 }
 
@@ -203,7 +204,7 @@ html, body {
 }
 
 .tabcontent {
-    width: 70%;
+    width: 100%;
     padding: 1rem;
     border: 1px solid #4a7c6f;
     border-left: none;
@@ -216,4 +217,62 @@ html, body {
 
 .tab button.active {
     background-color: #b8d0c9;
+}
+
+.tabTabs {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.tabTabs li {
+    display: block;
+}
+
+.tabTabs li a {
+    text-decoration: none;
+    color: #00352f;
+}
+
+.tabTabs li button {
+    border: none;
+    background: none;
+    font-size: large;
+    color: #00352f;
+}
+
+.tabTabs li button:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tabTabs li:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tabTabs dialog {
+    position: fixed;
+    top: 20%;
+    left: 25%;
+    padding: 15px;
+    background-color: #b8d0c9;
+    border:2px solid #00352f;
+}
+
+.tabTabs dialog a {
+    color: #00352f;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.tabTabs dialog a:hover {
+    font-weight: bold;
+    background-color: #4a7c6f;
+    color: #b8d0c9;
 }

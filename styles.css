@@ -257,9 +257,9 @@ html, body {
 }
 
 .tabTabs dialog {
-    position: fixed;
-    top: 20%;
-    left: 25%;
+    position: absolute;
+    top: 175%;
+    left: 40%;
     padding: 15px;
     background-color: #b8d0c9;
     border:2px solid #00352f;

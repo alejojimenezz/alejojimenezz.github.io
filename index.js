@@ -16,31 +16,123 @@ function toggleMenu() {
 
 document.querySelector('.navbar-toggle').addEventListener('click', toggleMenu);
 
-function openWork(evt, category) {
+// function openWork(evt, category) {
 
-    var i, tabcontent, tablinks;
+//     var i, tabcontent, tablinks;
 
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
+//     tabcontent = document.getElementsByClassName("tabcontent");
+//     for (i = 0; i < tabcontent.length; i++) {
+//         tabcontent[i].style.display = "none";
+//     }
+
+//     tablinks = document.getElementsByClassName("tablinks");
+//     for (i = 0; i < tablinks.length; i++) {
+//         tablinks[i].className = tablinks[i].className.replace(" active", "");
+//     }
+
+//     document.getElementById(category).style.display = "block";
+//     evt.currentTarget.className += " active";
+// }
+
+// function openQRioso() {
+//     const element = document.getElementById("QRiosoDialog");
+//     const elementText = document.getElementById("QRiosoButton")
+//     elementText.classList.toggle("bold-text");
+//     if (element.open == true) {
+//         element.open = false;
+//     } else {
+//         element.open = true;
+//     }
+// }
+
+const projects = {
+    qrioso: {
+
+        title: "QRioso",
+
+        description:
+            "Desktop application for QR generation.",
+
+        technologies: [
+            "Python",
+            "Tkinter"
+        ],
+
+        github:
+            "https://github.com/alejojimenezz/QRioso"
+    },
+
+    nfc: {
+
+        title: "NFC Reader/Writer",
+
+        description:
+            "Arduino UNO based NFC reader and writer.",
+
+        technologies: [
+            "Arduino UNO",
+            "C++",
+            "NFC"
+        ],
+
+        github:
+            "https://github.com/..."
     }
+};
 
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
+function showCategory(evt, categoryId){
 
-    document.getElementById(category).style.display = "block";
-    evt.currentTarget.className += " active";
+    document
+        .querySelectorAll(".project-list")
+        .forEach(item => {
+            item.classList.remove("active");
+        });
+
+    document
+        .querySelectorAll(".category")
+        .forEach(item => {
+            item.classList.remove("active");
+        });
+
+    document
+        .getElementById(categoryId)
+        .classList.add("active");
+
+    evt.currentTarget
+        .classList.add("active");
 }
 
-function openQRioso() {
-    const element = document.getElementById("QRiosoDialog");
-    const elementText = document.getElementById("QRiosoButton")
-    elementText.classList.toggle("bold-text");
-    if (element.open == true) {
-        element.open = false;
-    } else {
-        element.open = true;
-    }
+function showProject(projectId){
+
+    const project = projects[projectId];
+
+    document.getElementById("placeholder")
+            .style.display = "none";
+
+    document.getElementById("projectContent")
+            .style.display = "block";
+
+    document.getElementById("projectTitle")
+            .textContent = project.title;
+
+    document.getElementById("projectDescription")
+            .textContent = project.description;
+
+    document.getElementById("projectGithub")
+            .href = project.github;
+
+    const technologies =
+        document.getElementById("projectTechnologies");
+
+    technologies.innerHTML = "";
+
+    project.technologies.forEach(tech => {
+
+        const li = document.createElement("li");
+
+        li.textContent = tech;
+
+        technologies.appendChild(li);
+
+    });    
 }

@@ -39,7 +39,7 @@
     </section>
 
     <!-- MY WORK -->
-    <section class="page page--portfolio" id="portfolio">
+    <!-- <section class="page page--portfolio" id="portfolio">
         <div class="tab">
             <button class="tablinks" onmouseover="openWork(event, 'personalProjects')">Personal projects</button>
             <button class="tablinks" onmouseover="openWork(event, 'academicProjects')">Academic projects</button>
@@ -72,6 +72,85 @@
             </div>
         </div>
 
+    </section> -->
+
+    <section class="page page--portfolio" id="portfolio">
+        <div class="portfolio-layout">
+
+            <!-- PANEL IZQUIERDO -->
+            <aside class="sidebar">
+
+                <div class="categories">
+                    <button class="category"
+                            onclick="showCategory(event,'personal')">
+                        Personal Projects
+                    </button>
+                    <button class="category"
+                            onclick="showCategory(event,'academic')">
+                        Academic Projects
+                    </button>
+                    <button class="category"
+                            onclick="showCategory(event,'other')">
+                        Other
+                    </button>
+                </div>
+
+                <div id="personal" class="project-list">
+                    <div class="project-card"
+                        onclick="showProject('qrioso')">
+                        QRioso
+                    </div>
+                    <div class="project-card"
+                        onclick="showProject('nfc')">
+
+                        NFC Reader
+                    </div>
+                    <div class="project-card"
+                        onclick="showProject('vscode')">
+                        VSCode RPU
+                    </div>
+                </div>
+
+                <div id="academic" class="project-list">
+                    <div class="project-card"
+                        onclick="showProject('sign')">
+                        Sign Language Recognition
+                    </div>
+                    <div class="project-card"
+                        onclick="showProject('pid')">
+                        PID Controllers
+                    </div>
+                </div>
+
+                <div id="other" class="project-list">
+                    <div class="project-card"
+                        onclick="showProject('eniq')">
+                        ENIQ Sessions
+                    </div>
+                </div>
+            </aside>
+
+            <!-- PANEL DERECHO -->
+            <section class="project-panel">
+
+                <div id="placeholder">
+                    <h2>Select a project</h2>
+                    <p>Choose a project from the left panel</p>
+                </div>
+
+                <div id="projectContent"
+                    style="display: none;">
+
+                    <h2 id="projectTitle"></h2>
+                    <p id="projectDescription"></p>
+                    <h3>Technologies</h3>
+                    <ul id="projectTechnologies"></ul>
+                    <a id="projectGithub" target="_blank">
+                        GitHub Repository
+                    </a>
+                </div>
+            </section>
+        </div>
     </section>
 
     <!-- CONTACT -->

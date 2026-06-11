@@ -60,6 +60,9 @@ const projects = {
 
         github:
             "https://github.com/alejojimenezz/QRioso"
+        
+        // download:
+        //     "./assets/qrioso.exe"
     },
 
     nfc: {
@@ -76,7 +79,7 @@ const projects = {
         ],
 
         github:
-            "https://github.com/..."
+            "https://github.com/alejojimenezz/ArduinoNFC-Reader-Writer"
     }
 };
 
@@ -118,8 +121,27 @@ function showProject(projectId){
     document.getElementById("projectDescription")
             .textContent = project.description;
 
-    document.getElementById("projectGithub")
-            .href = project.github;
+    const githubContainer = document.getElementById("githubContainer");
+    const githubLink = document.getElementById("projectGithub");
+
+    if(project.github){
+        githubContainer.style.display = "block";
+        githubLink.href = project.github;
+    } else{
+        githubContainer.style.display = "none";
+        githubLink.href = "";
+    }
+
+    const downloadContainer = document.getElementById("downloadContainer");
+    const downloadLink = document.getElementById("projectDownload");
+
+    if(project.download){
+        downloadContainer.style.display = "block";
+        downloadLink.href = project.download;
+    } else{
+        downloadContainer.style.display = "none";
+        downloadLink.href = "";
+    }
 
     const technologies =
         document.getElementById("projectTechnologies");

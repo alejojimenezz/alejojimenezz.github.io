@@ -67,7 +67,7 @@ const projects = {
 
     nfc: {
 
-        title: "NFC Reader/Writer",
+        title: "NFC Reader / Writer",
 
         description:
             "Arduino UNO based NFC reader and writer.",
@@ -80,6 +80,67 @@ const projects = {
 
         github:
             "https://github.com/alejojimenezz/ArduinoNFC-Reader-Writer"
+    },
+
+    vscextension: {
+
+        title: "Reminder Pop-up VSC extension",
+
+        description:
+            "Visual Studio Code for notification reminders.",
+        
+        technologies: [
+            "Javascript"
+        ],
+
+        github:
+            "https://github.com/alejojimenezz/Reminder-POP-UP"
+    },
+
+    lsc: {
+
+        title: "LSC recognition",
+
+        description:
+            "Colombian sign language alphabet recognition.",
+        
+        technologies: [
+            "Python",
+            "OpenCV",
+            "Mediapipe"
+        ],
+
+        github:
+            "https://github.com/alejojimenezz/Academic-Projects/tree/main/reconLSC"
+    },
+
+    pid: {
+
+        title: "PID controllers",
+
+        description:
+            "PID signal controllers applied to microcontrollers.",
+        
+        technologies: [
+            "C++",
+            "Python",
+            "Arduino",
+            "ESP32"
+        ]
+    },
+
+    eniq: {
+
+        title: "Programming sessions",
+
+        description:
+            "Teaching sessions directed towards university students.",
+        
+        technologies: [
+            "Python",
+            "Git",
+            "Github"
+        ]
     }
 };
 

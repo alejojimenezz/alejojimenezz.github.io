@@ -13,29 +13,40 @@ Portfolio and Resume web-page
 
 ## TO-DO list
 
-- [ ] Reestructure portfolio
-- [ ] Responsive layout
-- [ ] Top bar - Naviation bar
 - [ ] Hero
-  - [ ] Name
+  - [X] Name
   - [ ] Call to action
-  - [ ] My work (Briefcase codes: &#128188; &#x1F4BC;)
-  - [ ] Contact me (Phone: &#x1F4F1; &#x1F4F2;)
+  - [ ] My work
+  - [ ] Contact me
 - [ ] My work / Portfolio
   - [ ] Personal projects
-    - [ ] QRioso
-    - [ ] NFC reader/writer
-    - [ ] VSC extension - RPU
+    - [X] QRioso
+    - [X] NFC reader/writer
+    - [X] VSC extension - RPU
     - [ ] Dollar exchange rate analysis
-  - [ ] Other work
+  - [ ] Academic projects
+    - [X] Sign language recognition
+    - [ ] Conveyor belt
+    - [X] PID controllers
     - [ ] Quanticon valley
-    - [ ] Academic projects
-      - [ ] Conveyor belt
-      - [ ] PID controllers
-    - [ ] ENIQ sessions
+  - [ ] Other work
+    - [X] ENIQ sessions
       - [ ] Python
       - [ ] GIT
   - [ ] Currently working on...
     - [ ] CompuLearning
     - [ ] QRioso
     - [ ] NFC reader/writer
+
+## Projects content
+
+- Title
+- Description
+- Technologies
+- Github
+- Download
+
+### Possible content implementations
+
+- [ ] Image
+- [ ] Video

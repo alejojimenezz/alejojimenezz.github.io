@@ -251,6 +251,33 @@ html, body {
     min-height: 500px;
 }
 
+.project-panel h2 {
+    padding: 1rem;
+}
+
+.project-panel h3 {
+    padding: 1rem;
+}
+
+.project-panel div {
+    padding-top: 2rem;
+    text-decoration: none;
+}
+
+.project-panel a {
+    padding: 0.5rem;
+    color: #e8f0ed;
+    text-decoration: none;
+    background: #4a7c6f;
+    border: 1px solid #00352f;
+    border-radius: 2rem;
+}
+
+.project-panel a:hover {
+    background: #b8d0c9;
+    color: #00352f;
+}
+
 .project-detail {
     display: none;
 }

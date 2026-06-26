@@ -22,7 +22,7 @@ const projects = {
         title: "QRioso",
 
         description:
-            "Desktop application for QR generation.",
+            "Desktop application for QR code generation and personalization.",
 
         technologies: [
             "Python",

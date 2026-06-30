@@ -285,3 +285,17 @@ html, body {
 .project-detail.active {
     display: block;
 }
+
+.current-work{
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 3rem;
+}
+
+.current-card{
+    margin-top: 1rem;
+    padding: 2rem;
+    border-radius: 15px;
+    background: white;
+    border: 1px solid #4a7c6f;
+}

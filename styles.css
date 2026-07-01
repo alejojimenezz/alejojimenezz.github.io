@@ -299,3 +299,7 @@ html, body {
     background: white;
     border: 1px solid #4a7c6f;
 }
+
+.current-card h3{
+    padding: 1rem;;
+}
